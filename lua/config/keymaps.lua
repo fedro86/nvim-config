@@ -11,3 +11,7 @@ vim.keymap.set({'n', 'v'}, 'ò', 'e')
 
 -- repeat
 vim.keymap.set({'n', 'v'}, '\'', ';')
+
+-- escape insert
+vim.keymap.set('i', 'jj', '<Esc>')
+
