@@ -3,7 +3,7 @@
 For the moment this is the current configuration I use on my Ubuntu Machine.
 The folder structure is the following:
 
-'''
+```
 /home/(user)/.config/nvim
 ├── init.lua
 ├── lua
@@ -23,4 +23,4 @@ The folder structure is the following:
 └── plugin
     └── packer_compiled.lua
 
-'''
+```
