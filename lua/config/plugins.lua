@@ -14,14 +14,18 @@ local packer_bootstrap = ensure_packer()
 return require('packer').startup(function(use)
 	use 'wbthomason/packer.nvim'
 	-- My plugins here
-	use 'christoomey/vim-tmux-navigator' -- tmux & split window navigation
+	
+  use 'christoomey/vim-tmux-navigator' -- tmux & split window navigation
 	use 'ellisonleao/gruvbox.nvim'
 	use 'nvim-tree/nvim-tree.lua'
 	use 'nvim-tree/nvim-web-devicons'
 	use 'nvim-lualine/lualine.nvim'
 	use 'nvim-lua/plenary.nvim'
 
-	use { "rcarriga/nvim-dap-ui", requires = {"mfussenegger/nvim-dap", "nvim-neotest/nvim-nio"} }
+  -- commenting with gc
+  use("numToStr/Comment.nvim")
+	
+  use { "rcarriga/nvim-dap-ui", requires = {"mfussenegger/nvim-dap", "nvim-neotest/nvim-nio"} }
 
 	use {
 		'nvim-treesitter/nvim-treesitter',
