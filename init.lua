@@ -1,0 +1,11 @@
+require("config.plugins-setup")
+require("config.plugins.nvim-cmp")
+require("config.plugins.lsp.mason")
+require("config.core.colorscheme")
+require("config.core.keymaps")
+require("config.core.options")
+require("config.plugins.comment")
+require("config.plugins.nvim-tree")
+require("config.plugins.lualine")
+require("config.plugins.telescope")
+
