@@ -4,11 +4,11 @@ For the moment this is the current configuration I use on my Ubuntu Machine.
 The folder structure is the following:
 
 ```
-/home/(user)/.config/nvim
 ├── init.lua
 ├── lua
 │   └── config
 │       ├── keymaps.lua
+│       ├── options.lua
 │       ├── plugin_config
 │       │   ├── cmp.lua
 │       │   ├── gruvbox.lua
@@ -20,8 +20,9 @@ The folder structure is the following:
 │       │   ├── nvim-treesitter.lua
 │       │   └── vim-fugitive.lua
 │       └── plugins.lua
-└── plugin
-    └── packer_compiled.lua
+├── plugin
+│   └── packer_compiled.lua
+└── README.md
 
 ```
 
