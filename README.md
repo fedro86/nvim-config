@@ -24,3 +24,5 @@ The folder structure is the following:
     └── packer_compiled.lua
 
 ```
+
+Plugin folder with packer_compiled are not included.
